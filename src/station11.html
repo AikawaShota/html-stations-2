@@ -9,7 +9,19 @@
   <body>
     <main>
       <form action="" method="post">
-        <button type="submit">送信</button>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" minlength="6" required>
+        </div>
+        <div>
+          <label for="nickname">Nickname:</label>
+          <input type="text" name="nickname" id="nickname" maxlength="20">
+        </div>
+        <p><button type="submit">送信</button></p>
       </form>
     </main>
   </body>
